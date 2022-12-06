@@ -1,0 +1,49 @@
+body {
+	background-image: url('../img/Christmas_Night_Tree.jpg');
+	background-repeat: no-repeat;
+
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+	margin: 0px;
+	overflow: hidden;
+
+}
+
+
+a {
+	color:#0078ff;
+}
+
+.wrap{
+
+}
+
+.title{
+	font-size: 100px;
+	color:#E0E0E0 ;
+	font-weight:900;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	padding: 200px 0px 0px 170px;
+	position: absolute;
+}
+
+.name{
+	font-size: 100px;
+	color:#E0E0E0   ;
+	font-weight:900;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	text-shadow: #FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px;
+
+	padding: 500px 0px 0px 250px;
+	position: absolute;
+}
+
+.glow{width:100%;
+	text-shadow: #FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px,#FFF 1px 1px 15px;
+	letter-spacing: 0;
+}
+
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0055)http://www.jbmarket.net/demos/countdown/demo1/index.php -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>JB Clock</title>
+        <link rel="stylesheet" href="jbclock.css" type="text/css" media="all">
+        <script type="text/javascript" src="jquery-1.8.0.min(1).js"></script>
+        <script type="text/javascript" src="jbclock.js"></script>
+                <script type="text/javascript">
+            $(document).ready(function(){
+                JBCountDown({
+                    secondsColor : "#ffdc50",
+                    secondsGlow  : "none",
+                    
+                    minutesColor : "#9cdb7d",
+                    minutesGlow  : "none",
+                    
+                    hoursColor   : "#378cff",
+                    hoursGlow    : "none",
+                    
+                    daysColor    : "#ff6565",
+                    daysGlow     : "none",
+                    
+                    startDate   : "1357034400",
+                    endDate     : "1386496800",
+                    now         : "1382457574"
+                });
+            });
+        </script>
+    </head>
+    <body style="">
+        
+        <div class="wrapper">
+        <h1>This website is under construction!</h1>
+        <h4>We will be live in:</h4>
+        <div class="clock">
+            <!-- Days -->
+            <div class="clock_days">
+                <div class="bgLayer">
+                    <div class="topLayer"></div>
+                    <canvas id="canvas_days" width="188" height="188">
+                    </canvas>
+                    <div class="text">
+                        <p class="val">46</p>
+                        <p class="type_days">Days</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Days -->
+            <!-- Hours -->
+            <div class="clock_hours">
+                <div class="bgLayer">
+                    <div class="topLayer"></div>
+                    <canvas id="canvas_hours" width="188" height="188">
+                    </canvas>
+                    <div class="text">
+                        <p class="val">17</p>
+                        <p class="type_hours">Hours</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Hours -->
+            <!-- Minutes -->
+            <div class="clock_minutes">
+                <div class="bgLayer">
+                    <div class="topLayer"></div>
+                    <canvas id="canvas_minutes" width="188" height="188">
+                    </canvas>
+                    <div class="text">
+                        <p class="val">33</p>
+                        <p class="type_minutes">Minutes</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Minutes -->
+            <!-- Seconds -->
+            <div class="clock_seconds">
+                <div class="bgLayer">
+                    <div class="topLayer"></div>
+                    <canvas id="canvas_seconds" width="188" height="188">
+                    </canvas>
+                    <div class="text">
+                        <p class="val">42</p>
+                        <p class="type_seconds">Seconds</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Seconds -->
+        </div>
+        <div class="divider">
+       	  <p>In the meantime why dont follow us on <a href="http://www.jbmarket.net/demos/countdown/demo1/index.php#">Twitter?</a></p>
+        </div>
+        </div><!--/wrapper-->
+    
+</body></html>
